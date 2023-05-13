@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "untitled"
+version = "0.1.0"
+description = ""
+authors = ["Nick Demming <5727019+demming@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.30.0"
+beautifulsoup4 = "^4.9.3"
+urllib3 = "~1.26.6"
+# jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
